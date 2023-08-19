@@ -1,0 +1,9 @@
+<h1>Soil condition</h1>
+<ul>
+  <li *ngFor="let item1 of dht_hum; let i = index;">
+    Humidity: {{item1}} %
+  </li>
+  <li *ngFor="let item2 of dht_temp; let i = index;">
+    Temperature: {{item2}} °C
+  </li>
+</ul>

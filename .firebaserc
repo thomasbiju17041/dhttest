@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "esp32test-ccee2"
+  },
+  "targets": {
+    "esp32test-ccee2": {
+      "hosting": {
+        "my-app": [
+          "esp32test-ccee2"
+        ]
+      }
+    }
+  }
+}
